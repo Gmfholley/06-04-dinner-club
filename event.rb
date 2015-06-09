@@ -46,8 +46,7 @@ class Event
   #returns @date (Date)
   def set_date(date)
     begin
-      Date.parse(date)
-      @date = date
+      @date = Date.parse(date)
     rescue
       @date = Date.today
     end

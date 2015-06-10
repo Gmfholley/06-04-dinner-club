@@ -64,7 +64,6 @@ class DinnerClub
       end
     end
     balance
-    binding.pry
   end
   
   #gets Array of all members
